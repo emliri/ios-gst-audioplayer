@@ -15,4 +15,5 @@ s.swift_version    = '4.1'
 s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 s.prefix_header_file = false
 s.static_framework = true
+s.ios.vendored_frameworks = 'Frameworks/GStreamer.framework'
 end

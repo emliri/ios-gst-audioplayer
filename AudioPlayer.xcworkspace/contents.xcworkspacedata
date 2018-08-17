@@ -8,6 +8,9 @@
       location = "group:AudioPlayer/AudioPlayer.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:AudioPlayer/../GstAudioPlayer.podspec">
+   </FileRef>
+   <FileRef
       location = "group:Demo/../.gitignore">
    </FileRef>
    <FileRef
