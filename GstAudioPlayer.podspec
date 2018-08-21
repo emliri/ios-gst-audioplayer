@@ -12,8 +12,5 @@ s.platform         = :ios, '9.0'
 s.source           = { :git => 'https://github.com/blinkist/ios-gst-audioplayer.git', :tag => "v#{s.version}" }
 s.source_files     = 'AudioPlayer/Source/**/*.*'
 s.swift_version    = '4.1'
-s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
-s.prefix_header_file = false
-s.static_framework = true
 s.ios.vendored_frameworks = 'AudioPlayer/Frameworks/GStreamer.framework'
 end
