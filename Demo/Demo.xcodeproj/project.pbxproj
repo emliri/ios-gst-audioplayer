@@ -359,6 +359,7 @@
 		DA138DE520E0FC2600A47DAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y68M8S5N3Q;
 				INFOPLIST_FILE = Configuration/source.plist;
@@ -377,6 +378,7 @@
 		DA138DE620E0FC2600A47DAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y68M8S5N3Q;
 				INFOPLIST_FILE = Configuration/source.plist;

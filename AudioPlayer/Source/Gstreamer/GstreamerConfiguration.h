@@ -1,8 +1,5 @@
 #ifndef __GstreamerConfiguration_H__
 #define __GstreamerConfiguration_H__
-#import "gst/gst.h"
-
-G_BEGIN_DECLS
 
 /*
  * Wether to use avfassetsrc to access local files on iOS
@@ -30,6 +27,5 @@ G_PASTE(g_io_module_, G_PASTE(name, _load_static)) ()
 
 void GstreamerConfiguration (void);
 
-G_END_DECLS
 
 #endif
