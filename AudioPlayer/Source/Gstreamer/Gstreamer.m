@@ -1,5 +1,5 @@
-#import <gst/player/player.h>
-#import <AudioPlayer/AudioPlayer-Swift.h>
+#import "AudioPlayer/AudioPlayer-Swift.h"
+#import "gst/player/player.h"
 #import "Gstreamer.h"
 #import "GstreamerConfiguration.h"
 

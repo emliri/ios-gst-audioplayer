@@ -1,7 +1,6 @@
 #ifndef __GstreamerConfiguration_H__
 #define __GstreamerConfiguration_H__
-
-#include <gst/gst.h>
+#import "gst/gst.h"
 
 G_BEGIN_DECLS
 

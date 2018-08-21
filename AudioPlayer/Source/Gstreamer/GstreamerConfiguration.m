@@ -1,9 +1,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSBundle.h>
 #import <Foundation/NSPathUtilities.h>
-#import <gst/gst.h>
 #import "GstreamerConfiguration.h"
 #import "Gstreamer.h"
+#import "gst/gst.h"
 
 #if defined(GST_IOS_PLUGIN_NLE) || defined(GST_IOS_PLUGINS_GES)
 GST_PLUGIN_STATIC_DECLARE(nle);
