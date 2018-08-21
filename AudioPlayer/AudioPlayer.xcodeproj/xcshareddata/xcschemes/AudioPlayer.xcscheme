@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DA138DF020E0FC4100A47DAE"
-               BuildableName = "AudioPlayer.framework"
-               BlueprintName = "AudioPlayer"
+               BuildableName = "GstAudioPlayer.framework"
+               BlueprintName = "GstAudioPlayer"
                ReferencedContainer = "container:AudioPlayer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DA138DF020E0FC4100A47DAE"
-            BuildableName = "AudioPlayer.framework"
-            BlueprintName = "AudioPlayer"
+            BuildableName = "GstAudioPlayer.framework"
+            BlueprintName = "GstAudioPlayer"
             ReferencedContainer = "container:AudioPlayer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,8 +65,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DA138DF020E0FC4100A47DAE"
-            BuildableName = "AudioPlayer.framework"
-            BlueprintName = "AudioPlayer"
+            BuildableName = "GstAudioPlayer.framework"
+            BlueprintName = "GstAudioPlayer"
             ReferencedContainer = "container:AudioPlayer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,8 +83,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DA138DF020E0FC4100A47DAE"
-            BuildableName = "AudioPlayer.framework"
-            BlueprintName = "AudioPlayer"
+            BuildableName = "GstAudioPlayer.framework"
+            BlueprintName = "GstAudioPlayer"
             ReferencedContainer = "container:AudioPlayer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

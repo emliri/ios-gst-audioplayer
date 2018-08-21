@@ -1,5 +1,5 @@
 import Foundation
-import AudioPlayer
+import GstAudioPlayer
 
 extension Presenter:PlayerDelegate {
     func playerError(message:String) {

@@ -1,5 +1,5 @@
 import UIKit
-import AudioPlayer
+import GstAudioPlayer
 
 class Presenter {
     weak var view:View?

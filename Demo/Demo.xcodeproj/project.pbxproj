@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D427370220E2729C00B11C31 /* AudioPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA3E943820E1024B00F049AD /* AudioPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DA2C104220F88B4F00EDC0D4 /* Presenter+PlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C104120F88B4F00EDC0D4 /* Presenter+PlayerDelegate.swift */; };
 		DA2C104420F88B9600EDC0D4 /* Presenter+Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C104320F88B9600EDC0D4 /* Presenter+Control.swift */; };
 		DA2C104620F88F2000EDC0D4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C104520F88F2000EDC0D4 /* ViewModel.swift */; };
@@ -20,6 +19,8 @@
 		DA606AF620E1149B003C6EFB /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA606AF520E1149B003C6EFB /* Navigation.swift */; };
 		DA606AF920E11531003C6EFB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA606AF720E11531003C6EFB /* Localizable.strings */; };
 		DA606AFB20E1299E003C6EFB /* guitars.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DA606AFA20E1299E003C6EFB /* guitars.m4a */; };
+		DACEABFF212C132000D4EE7E /* GstAudioPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACEABFD212C131D00D4EE7E /* GstAudioPlayer.framework */; };
+		DACEAC00212C132000D4EE7E /* GstAudioPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DACEABFD212C131D00D4EE7E /* GstAudioPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DADA3C17210B3D4800AE98A9 /* Black_Acid_Prophecy_-_14_-_Servant_of_the_Storm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DADA3C14210B3D4800AE98A9 /* Black_Acid_Prophecy_-_14_-_Servant_of_the_Storm.mp3 */; };
 		DADA3C18210B3D4800AE98A9 /* Medusah_Black_-_07_-_Guilty_Pleasure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DADA3C15210B3D4800AE98A9 /* Medusah_Black_-_07_-_Guilty_Pleasure.mp3 */; };
 		DADA3C19210B3D4800AE98A9 /* Space_Heater_-_04_-_Mode_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DADA3C16210B3D4800AE98A9 /* Space_Heater_-_04_-_Mode_7.mp3 */; };
@@ -27,13 +28,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DA53E90020E2697100CE899D /* Embed Frameworks */ = {
+		DACEABFC212C12E600D4EE7E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D427370220E2729C00B11C31 /* AudioPlayer.framework in Embed Frameworks */,
+				DACEAC00212C132000D4EE7E /* GstAudioPlayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,13 +50,13 @@
 		DA3E941920E0FF2600F049AD /* Configuration */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Configuration; sourceTree = "<group>"; };
 		DA3E941B20E0FF3400F049AD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA3E941E20E0FF4800F049AD /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
-		DA3E943820E1024B00F049AD /* AudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5E48CF20E109D2003F4619 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		DA606AEB20E10E1F003C6EFB /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		DA606AF120E1115D003C6EFB /* ViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContent.swift; sourceTree = "<group>"; };
 		DA606AF520E1149B003C6EFB /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		DA606AF820E11531003C6EFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DA606AFA20E1299E003C6EFB /* guitars.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = guitars.m4a; sourceTree = "<group>"; };
+		DACEABFD212C131D00D4EE7E /* GstAudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GstAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADA3C14210B3D4800AE98A9 /* Black_Acid_Prophecy_-_14_-_Servant_of_the_Storm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black_Acid_Prophecy_-_14_-_Servant_of_the_Storm.mp3"; sourceTree = "<group>"; };
 		DADA3C15210B3D4800AE98A9 /* Medusah_Black_-_07_-_Guilty_Pleasure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Medusah_Black_-_07_-_Guilty_Pleasure.mp3"; sourceTree = "<group>"; };
 		DADA3C16210B3D4800AE98A9 /* Space_Heater_-_04_-_Mode_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Space_Heater_-_04_-_Mode_7.mp3"; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACEABFF212C132000D4EE7E /* GstAudioPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +127,7 @@
 		DA3E943720E1024B00F049AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DA3E943820E1024B00F049AD /* AudioPlayer.framework */,
+				DACEABFD212C131D00D4EE7E /* GstAudioPlayer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,7 +142,7 @@
 				DA138DCE20E0FC2500A47DAE /* Sources */,
 				DA138DCF20E0FC2500A47DAE /* Frameworks */,
 				DA138DD020E0FC2500A47DAE /* Resources */,
-				DA53E90020E2697100CE899D /* Embed Frameworks */,
+				DACEABFC212C12E600D4EE7E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
